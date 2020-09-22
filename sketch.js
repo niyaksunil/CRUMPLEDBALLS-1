@@ -37,14 +37,13 @@ function draw() {
 	rightBox.display();
 
 // calling the function Keypressed in Draw
- 	KeyPressed();
   	drawSprites();
 }
 
 // creating the function Keypressed
-function KeyPressed(){
+function keyPressed(){
 	if (keyCode === UP_ARROW ) {
-		Matter.Body.applyForce(paper.body,paper.body.position,{x:2,y:-4});
+		Matter.Body.applyForce(paper.body,paper.body.position,{x:37,y:-48});
     }
 
 }
